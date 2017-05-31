@@ -3,8 +3,7 @@
   //文字列連結を用いて、自分の名前をブラウザ上に表示する。
   $first_name = 'shiho';
   $last_name = 'matsuoka';
-
- echo"<br>";
+  echo"<br>";
 
   //練習問題2
   //以下の計算をそれぞれ行い、ブラウザ上に表示する。
@@ -42,8 +41,7 @@
   echo $list[0];
   echo $list[1];
   echo $list[2];
-
-   echo"<br>";
+  echo"<br>";
 
   //練習問題5
   //連想配列内に、nameキーに'櫻井'、ageキーに'22'、placeキーに'富山'を入力して、ブラウザ上にそれぞれを表示せよ。
@@ -51,16 +49,14 @@
   echo $lists['name'];
   echo $lists['age'];
   echo $lists['place'];
-
-   echo"<br>";
+  echo"<br>";
 
   //課題1
   //西暦の計算
   //以下の配列に2つの西暦a, bがあります。その2つのaからbが何年間か出力しなさい。
   $year = array(1994, 2017);
-   echo $year[1]-$year[0];
-
-    echo"<br>";
+  echo $year[1]-$year[0];
+  echo"<br>";
 
   //課題2
   //かまくらづくり
@@ -70,8 +66,7 @@
   echo '<img src="./assets/img/img1.png">';
   $size = array(6, 4);
   echo $size[0]*$size[0]*$size[0]-$size[1]*$size[1]*$size[1];
-
-   echo"<br>";
+  echo"<br>";
 
   //課題3
   //行列の計算
